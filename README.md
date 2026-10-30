@@ -62,13 +62,13 @@ JUnit test reports are generated at `target/surefire-reports/*.xml`.
 java -jar target/spring-boot-cicd-demo-1.0.0.jar
 ```
 
-The application starts on **port 8080** by default.
+The application starts on **port 8081** by default.
 
 Test it:
 ```bash
-curl http://localhost:8080/
-curl http://localhost:8080/health
-curl "http://localhost:8080/api/greet?name=John"
+curl http://localhost:8081/
+curl http://localhost:8081/health
+curl "http://localhost:8081/api/greet?name=John"
 ```
 
 ---
